@@ -15,4 +15,6 @@ function capitalize(str) {
 }
 console.log(capitalize("helLLO THERE"));
 
-
+// Function Last Letter
+let lastLetter = str => str.slice(-1);
+console.log(lastLetter("Hi There I love you"));
