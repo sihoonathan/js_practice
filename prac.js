@@ -5,3 +5,14 @@ console.log(add7(3));
 // Function Multiply
 let multiply = function(x, y){return x * y;};
 console.log(multiply(4, 5));
+
+// Function Capitalize
+function capitalize(str) {
+    let strCopy = str.toLowerCase();
+    debugger;
+    strCopy = strCopy[0].toUpperCase() + strCopy.slice(1);
+    return strCopy;
+}
+console.log(capitalize("helLLO THERE"));
+
+
